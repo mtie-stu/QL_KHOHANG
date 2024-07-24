@@ -3,20 +3,72 @@
   "WorkspaceRootPath": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\gui_qlkhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:GUI_QLKHOHANG\\Main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\pnct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\pnct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\pn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\pn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743DA58E-733F-47A2-876A-C5D00C94364D}|BUS_QLKHOHANG\\BUS_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\bus_qlkhohang\\bus_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743DA58E-733F-47A2-876A-C5D00C94364D}|BUS_QLKHOHANG\\BUS_QLKHOHANG.csproj|solutionrelative:bus_qlkhohang\\bus_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8F7010-B50F-43E3-AF6E-FF8C67D275A5}|DAL_QLKHOHANG\\DAL_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\dal_qlkhohang\\dal_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8F7010-B50F-43E3-AF6E-FF8C67D275A5}|DAL_QLKHOHANG\\DAL_QLKHOHANG.csproj|solutionrelative:dal_qlkhohang\\dal_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FCEC904-44BF-4503-9757-620A48402B11}|DTO_QLKHOHANG\\DTO_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\dto_qlkhohang\\dto_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FCEC904-44BF-4503-9757-620A48402B11}|DTO_QLKHOHANG\\DTO_QLKHOHANG.csproj|solutionrelative:dto_qlkhohang\\dto_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8F7010-B50F-43E3-AF6E-FF8C67D275A5}|DAL_QLKHOHANG\\DAL_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\dal_qlkhohang\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8F7010-B50F-43E3-AF6E-FF8C67D275A5}|DAL_QLKHOHANG\\DAL_QLKHOHANG.csproj|solutionrelative:dal_qlkhohang\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\gui_qlkhohang\\main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\gui_qlkhohang\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\gui_qlkhohang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743DA58E-733F-47A2-876A-C5D00C94364D}|BUS_QLKHOHANG\\BUS_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\bus_qlkhohang\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743DA58E-733F-47A2-876A-C5D00C94364D}|BUS_QLKHOHANG\\BUS_QLKHOHANG.csproj|solutionrelative:bus_qlkhohang\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|d:\\fpt poly\\pro131_sd19311_ca5\\ql_dua1\\ql_dua1\\gui_qlkhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:GUI_QLKHOHANG\\Main2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:GUI_QLKHOHANG\\MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\gui_qlkhohang\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69254354-A054-48A4-94B0-F51687CE32C6}|GUI_QLKHOHANG\\GUI_QLKHOHANG.csproj|solutionrelative:gui_qlkhohang\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 266,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +114,144 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateTask.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\CreateTask.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\CreateTask.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\CreateTask.cs",
+              "RelativeToolTip": "GUI_QLKHOHANG\\CreateTask.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAawAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:59:32.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "USER.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\USER.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\USER.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\USER.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\USER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:56:34.193Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTask.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\CreateTask.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\CreateTask.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\CreateTask.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\CreateTask.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:28:31.647Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PN.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\PN.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\PN.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\PN.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\PN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:35:37.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PNCT.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\PNCT.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\PNCT.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\PNCT.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\PNCT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:28:05.964Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SANPHAM.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\SANPHAM.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\SANPHAM.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\SANPHAM.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\SANPHAM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:28:18.274Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NHANVIEN.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\NHANVIEN.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\NHANVIEN.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\NHANVIEN.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\NHANVIEN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:28:29.992Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BUS_TASK.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\BUS_QLKHOHANG\\BUS_TASK.cs",
+              "RelativeDocumentMoniker": "BUS_QLKHOHANG\\BUS_TASK.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\BUS_QLKHOHANG\\BUS_TASK.cs",
+              "RelativeToolTip": "BUS_QLKHOHANG\\BUS_TASK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:36:47.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAL_TASK.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DAL_QLKHOHANG\\DAL_TASK.cs",
+              "RelativeDocumentMoniker": "DAL_QLKHOHANG\\DAL_TASK.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DAL_QLKHOHANG\\DAL_TASK.cs",
+              "RelativeToolTip": "DAL_QLKHOHANG\\DAL_TASK.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAA0wHAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:42:38.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DTO_TASK.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DTO_QLKHOHANG\\DTO_TASK.cs",
+              "RelativeDocumentMoniker": "DTO_QLKHOHANG\\DTO_TASK.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DTO_QLKHOHANG\\DTO_TASK.cs",
+              "RelativeToolTip": "DTO_QLKHOHANG\\DTO_TASK.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:48:00.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DAL_QLKHOHANG\\DBConnect.cs",
+              "RelativeDocumentMoniker": "DAL_QLKHOHANG\\DBConnect.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\DAL_QLKHOHANG\\DBConnect.cs",
+              "RelativeToolTip": "DAL_QLKHOHANG\\DBConnect.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:14:24.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Program.cs",
               "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Program.cs",
@@ -79,30 +264,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main2.cs",
-              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs",
-              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Main2.cs",
-              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs",
-              "RelativeToolTip": "GUI_QLKHOHANG\\Main2.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAIA7wDAAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "MAIN.cs [Design]",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\MAIN.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\MAIN.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:45:22.532Z"
+              "WhenOpened": "2024-07-23T13:47:27.698Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Main2.cs [Design]",
               "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs",
               "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Main2.cs",
-              "ToolTip": "D:\\D\u1EF1 \u00E1n 1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\D\u1EF1 \u00E1n 1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs [Design]",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs [Design]",
+              "RelativeToolTip": "GUI_QLKHOHANG\\Main2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:42:52.584Z"
+              "WhenOpened": "2024-07-23T14:42:52.584Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
+              "Title": "BUS_NHANVIEN.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\BUS_QLKHOHANG\\BUS_NHANVIEN.cs",
+              "RelativeDocumentMoniker": "BUS_QLKHOHANG\\BUS_NHANVIEN.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\BUS_QLKHOHANG\\BUS_NHANVIEN.cs",
+              "RelativeToolTip": "BUS_QLKHOHANG\\BUS_NHANVIEN.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:14:17.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Form1.cs",
               "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Form1.cs",
@@ -115,7 +314,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "Main2.cs",
+              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs",
+              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Main2.cs",
+              "ToolTip": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Main2.cs",
+              "RelativeToolTip": "GUI_QLKHOHANG\\Main2.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAIA7wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:45:22.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\Form1.cs",
               "RelativeDocumentMoniker": "GUI_QLKHOHANG\\Form1.cs",
@@ -127,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "MAIN.cs",
               "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs",
               "RelativeDocumentMoniker": "GUI_QLKHOHANG\\MAIN.cs",
@@ -135,18 +347,8 @@
               "RelativeToolTip": "GUI_QLKHOHANG\\MAIN.cs",
               "ViewState": "AQIAAKkAAAAAAAAAAIA7wLgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T13:48:33.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MAIN.cs [Design]",
-              "DocumentMoniker": "D:\\fpt poly\\PRO131_SD19311_Ca5\\QL_DUA1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs",
-              "RelativeDocumentMoniker": "GUI_QLKHOHANG\\MAIN.cs",
-              "ToolTip": "D:\\D\u1EF1 \u00E1n 1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\D\u1EF1 \u00E1n 1\\QL_DUA1\\GUI_QLKHOHANG\\MAIN.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T13:47:27.698Z"
+              "WhenOpened": "2024-07-23T13:48:33.044Z",
+              "EditorCaption": ""
             }
           ]
         },

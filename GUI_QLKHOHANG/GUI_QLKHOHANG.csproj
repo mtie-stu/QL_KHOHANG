@@ -58,11 +58,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="KEHANG.cs">
+    <Compile Include="CreateTask.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KEHANG.Designer.cs">
-      <DependentUpon>KEHANG.cs</DependentUpon>
+    <Compile Include="CreateTask.Designer.cs">
+      <DependentUpon>CreateTask.cs</DependentUpon>
     </Compile>
     <Compile Include="MAIN.cs">
       <SubType>Form</SubType>
@@ -111,8 +111,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KEHANG.resx">
-      <DependentUpon>KEHANG.cs</DependentUpon>
+    <EmbeddedResource Include="CreateTask.resx">
+      <DependentUpon>CreateTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MAIN.resx">
       <DependentUpon>MAIN.cs</DependentUpon>
