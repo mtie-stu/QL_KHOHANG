@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BUS_QLKHOHANG",
+    "\\DAL_QLKHOHANG",
+    "\\DTO_QLKHOHANG",
+    "\\GUI_QLKHOHANG",
+    "\\SQL"
+  ],
+  "SelectedNode": "\\GUI_QLKHOHANG\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

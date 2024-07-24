@@ -1,0 +1,6 @@
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\bin\Debug\DTO_QLKHOHANG.dll
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\bin\Debug\DTO_QLKHOHANG.pdb
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\obj\Debug\DTO_QLKHOHANG.csproj.AssemblyReference.cache
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\obj\Debug\DTO_QLKHOHANG.csproj.CoreCompileInputs.cache
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\obj\Debug\DTO_QLKHOHANG.dll
+D:\Dự án 1\QL_DUA1\DTO_QLKHOHANG\obj\Debug\DTO_QLKHOHANG.pdb
