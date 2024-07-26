@@ -230,7 +230,8 @@ namespace GUI_QLKHOHANG
 
         private void taskToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            Task task = new Task();
+            task.Show();
         }
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)

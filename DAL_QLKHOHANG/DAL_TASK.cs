@@ -48,15 +48,15 @@ namespace DAL_QLKHOHANG
                 cmd.Connection = _conn;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "AdminDuyetTask";
-                cmd.Parameters.AddWithValue("MaTask", task.MaTask);
-                cmd.Parameters.AddWithValue("ThoiGian", task.Thoigiantao);
-                cmd.Parameters.AddWithValue("Loaitask", task.Loaitask);
-                cmd.Parameters.AddWithValue("MaSP", task.MaSP);
-                cmd.Parameters.AddWithValue("MaNV", task.MaNV);
-                cmd.Parameters.AddWithValue("TrangThai", task.Trangthai);
-                cmd.Parameters.AddWithValue("Soluong", task.Soluong);
-                cmd.Parameters.AddWithValue("MaKeHang", task.MaKeHang);
-                cmd.Parameters.AddWithValue("Duyet", task.Duyet);
+                cmd.Parameters.AddWithValue("@MaTask", task.MaTask);
+                cmd.Parameters.AddWithValue("@ThoiGian", task.Thoigiantao);
+                cmd.Parameters.AddWithValue("@Loaitask", task.Loaitask);
+                cmd.Parameters.AddWithValue("@MaSP", task.MaSP);
+                cmd.Parameters.AddWithValue("@MaNV", task.MaNV);
+                cmd.Parameters.AddWithValue("@TrangThai", task.Trangthai);
+                cmd.Parameters.AddWithValue("@Soluong", task.Soluong);
+                cmd.Parameters.AddWithValue("@MaKeHang", task.MaKeHang);
+                cmd.Parameters.AddWithValue("@Duyet", task.Duyet);
                 if (cmd.ExecuteNonQuery() > 0)
                 {
                     return true;
@@ -67,7 +67,7 @@ namespace DAL_QLKHOHANG
             return false;
         }
 
-        public DataTable GetTasksByUser()
+        public DataTable GetTasksByUser(DTO_TASK task)
         {
             try
             {
@@ -76,6 +76,9 @@ namespace DAL_QLKHOHANG
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "GetTasksByUser";
                 cmd.Connection = _conn;
+                cmd.Parameters.AddWithValue("@MaNV", task.MaNV);
+                cmd.Parameters.AddWithValue("@Duyet", task.Duyet);
+                cmd.Parameters.AddWithValue("@LoaiTask", task.Loaitask);
                 DataTable dtHang = new DataTable();
                 dtHang.Load(cmd.ExecuteReader());
                 return dtHang;
@@ -111,6 +114,42 @@ namespace DAL_QLKHOHANG
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "spThongKeNhapXuatTheoMaNV";
+                cmd.Connection = _conn;
+                DataTable dtHang = new DataTable();
+                dtHang.Load(cmd.ExecuteReader());
+                return dtHang;
+
+
+            }
+            finally { _conn.Close(); }
+
+        }
+        public DataTable Loaitask()
+        {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "LoaiTask";
+                cmd.Connection = _conn;
+                DataTable dtHang = new DataTable();
+                dtHang.Load(cmd.ExecuteReader());
+                return dtHang;
+
+
+            }
+            finally { _conn.Close(); }
+
+        }
+        public DataTable NhanVienCB()
+        {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "NhanVienCB";
                 cmd.Connection = _conn;
                 DataTable dtHang = new DataTable();
                 dtHang.Load(cmd.ExecuteReader());

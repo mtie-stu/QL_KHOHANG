@@ -213,6 +213,11 @@ namespace GUI_QLKHOHANG
                 MessageBox.Show("Lỗi: " + ex.Message);
             }
         }
+
+        private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
