@@ -272,51 +272,45 @@ as
 	  from NhanVien where TenNV like + '%' +@tenNV + '%' 
   end
 -- Tạo task
-create procedure InsertTask
-				@thoigiantao nvarchar(100),
-				@loaitask nvarchar(10),
-				@masp nvarchar(100),
-				@trangthai tinyint,
-				@soluong int,
-				@makehang nvarchar(100)
-as 
-	begin
-		declare @matask nvarchar(20);
-		declare @Id int;
-		--Tạo mã task
-		Select @Id =ISNULL(Max(idTask),0)+1 from Task;
-		Select @matask = 'T' +Right('0000' + cast(@Id as nvarchar(4)),4);
-		-- Tạo MaPN hoac hoặc MaPX dựa vào loaitask
-		Declare @MaPN nvarchar(100);
-		Declare @MaPX nvarchar(100);
+CREATE PROCEDURE InsertTask  
+    @thoigiantao NVARCHAR(100),  
+    @loaitask TINYINT, -- Thay đổi loại dữ liệu cho @loaitask với TINYINT  
+    @masp NVARCHAR(100),  
+    @trangthai TINYINT, -- Thêm tham số trạng thái  
+    @soluong INT,  
+    @makehang NVARCHAR(100)  
+AS   
+BEGIN  
+    SET NOCOUNT ON; -- Ngăn chặn việc trả về số dòng ảnh hưởng đến hiệu suất  
 
-		If @loaitask = 1 --1 là phiếu nhập
-		Begin 
-			SELECT @Id = ISNULL(Max(idPN),0)+1 from Phieunhap; 
-			SELECT @MaPN = 'PN' + RIGHT('0000' + CAST(@Id AS NVARCHAR(4)), 4);  
-		
-			INSERT INTO PhieuNhap (MaPN, Thoigian)  
-		    VALUES (@MaPN, @thoigiantao); -- 0: chưa hoàn thành /1: hòan thành 
-		
-			INSERT INTO CTPhieunhap (MaPN,MaTask, MaSP, MaKeHang,Soluong)  
-			VALUES (@MaPN, @matask, @masp,@makehang,@soluong);  
-		END
-		ELSE IF @loaitask =2 --2 là phiếu xuất
-		Begin 
-			SELECT @Id = ISNULL(Max(idPX),0)+1 from Phieuxuat;
-			SELECT @MaPX = 'PX' + RIGHT('0000' + CAST(@Id AS NVARCHAR(4)), 4);
-			
-			INSERT INTO Phieuxuat(MaPX, Thoigian)  
-		    VALUES (@MaPX, @thoigiantao); -- 0: chưa hoàn thành /1: hòan thành 
-		
-			INSERT INTO CTPhieuxuat(MaPX,MaTask, MaSP, MaKeHang,Soluong)  
-			VALUES (@MaPN, @matask, @masp,@makehang,@soluong);  
-		END
-		--Thêm thông tin vào bảng task
-		Insert into Task (MaTask,LoaiTask,MaKeHang,MaSP,SoLuong,Thoigiangiao)
-        Values(@matask,@loaitask,@makehang,@masp,@soluong,@thoigiantao);-- 0: chưa hoàn thành /1: hòan thành 
-End
---Admin duyệt sản phẩm 
+    DECLARE @matask NVARCHAR(20);  
+    DECLARE @Id INT;  
+
+    -- Tạo mã task  
+    SELECT @Id = ISNULL(MAX(idTask), 0) + 1 FROM Task;  
+    SELECT @matask = 'T' + RIGHT('0000' + CAST(@Id AS NVARCHAR(4)), 4);  
+
+    -- Biến để lưu mã phiếu nhập hoặc phiếu xuất  
+    DECLARE @MaPN NVARCHAR(100) = NULL;  
+    DECLARE @MaPX NVARCHAR(100) = NULL;  
+
+    -- Tạo MaPN hoặc MaPX dựa vào loaitask  
+    IF (@loaitask = 1) -- 1 là phiếu nhập  
+    BEGIN   
+        SELECT @Id = ISNULL(MAX(idPN), 0) + 1 FROM Phieunhap;   
+        SELECT @MaPN = 'PN' + RIGHT('0000' + CAST(@Id AS NVARCHAR(4)), 4);  
+    END  
+    ELSE IF (@loaitask = 2) -- 2 là phiếu xuất  
+    BEGIN   
+        SELECT @Id = ISNULL(MAX(idPX), 0) + 1 FROM Phieuxuat;  
+        SELECT @MaPX = 'PX' + RIGHT('0000' + CAST(@Id AS NVARCHAR(4)), 4);  
+    END  
+
+    -- Thêm thông tin vào bảng Task  
+    INSERT INTO Task (MaTask, LoaiTask, MaKeHang, MaSP, SoLuong, Thoigiangiao, TrangThai)  
+    VALUES (@matask, @loaitask, @makehang, @masp, @soluong, @thoigiantao, @trangthai); -- Thêm trạng thái vào đây  
+END
+
 -- Admin duyệt Task
 CREATE PROCEDURE AdminDuyetTask
     @matask NVARCHAR(100),
@@ -358,8 +352,8 @@ END;
 --Xem Task (nhân viên + admin)
 CREATE PROCEDURE GetTasksByUser  
     @MaNV NVARCHAR(50) = NULL,  -- Tham số có thể là NULL  
-    @Duyet BIT,  
-    @LoaiTask NVARCHAR(20)  
+    @Duyet Tinyint,  
+    @LoaiTask NVARCHAR(10)  
 AS  
 BEGIN  
     IF @LoaiTask = 'nhap'  
@@ -580,6 +574,28 @@ BEGIN
     GROUP BY Nhanvien.MaNV, Nhanvien.TenNV
 END
 
+Create proc LoaiTask
+			@loaitask nvarchar(10)
+as 
+begin 
+	select LoaiTask
+	from Task
+end
+
+exec LoaiTask
+Create proc NhanVienCB
+			@MaNV nvarchar(20)
+as 
+begin 
+	select MaNV
+	from Nhanvien
+	Where VaiTro = 2
+end
+
+
+
+
+
 INSERT INTO Nhanvien (MaNV, Email, SDT, TenNV, DiaChi, VaiTro, CCCD, TinhTrang, AnhNV, MatKhau)
 VALUES 
     ('NV001', 'nv001@example.com', '0123456789', 'Nguyễn Văn A', '123 Đường ABC, Quận 1, TP. HCM', 1, '123456789', 1, '/images/avatar.jpg', 'password123'),
@@ -589,3 +605,70 @@ update Nhanvien set MatKhau = '72441292916521318018810973127250152733056'
 where MaNV='NV001'
 update Nhanvien set MatKhau = '232118023913780252881702166014020151142'
 where MaNV='NV002'
+
+
+
+create proc XemTaskChuaDuyet
+as 
+Begin 
+	Select *from Task
+	where duyet Is null 
+end
+
+EXEC XemTaskChuaDuyet
+Select*from Task
+
+create proc XemTaskDaDuyet
+as 
+Begin 
+	Select *from Task
+	where duyet = 1
+end
+
+--Dữ liệu 
+-- insert Kệ hàng 
+DECLARE @i INT = 1;  
+
+WHILE @i <= 25  
+BEGIN  
+    DECLARE @MaKeHang NVARCHAR(100);  
+    SET @MaKeHang = 'KH' + RIGHT('000' + CAST(@i AS NVARCHAR(3)), 3); -- Tạo giá trị KH001, KH002, ..., KH025  
+     
+    INSERT INTO Kehang (MaKeHang, MaSP, TenSP, DVT, SoLuongKH)  
+    VALUES (@MaKeHang, NULL, NULL, NULL, NULL);  
+     
+    SET @i = @i + 1;  
+END  
+
+--Insert dữ liệu bảng sản phẩm 
+DECLARE @i INT = 1;  
+
+WHILE @i <= 25  
+BEGIN  
+    DECLARE @MaSP NVARCHAR(100);  
+    DECLARE @TenSP NVARCHAR(100);  
+    SET @MaSP = 'SP' + RIGHT('000' + CAST(@i AS NVARCHAR(3)), 3); -- Tạo giá trị SP001, SP002, ..., SP025  
+    SET @TenSP = 'Sản phẩm ' + CHAR(65 + @i - 1); -- Tạo tên sản phẩm như Sản phẩm A, Sản phẩm B, ...  
+    
+    INSERT INTO Sanpham (MaSP, TenSP, DVT, infoSP)  
+    VALUES (@MaSP, @TenSP, 'cái', 'Mô tả ' + @TenSP);  
+     
+    SET @i = @i + 1;  
+END
+
+-- Giả sử bạn muốn insert một task mới với các thông tin cụ thể  
+DECLARE @thoigiantao NVARCHAR(100) = '2023-10-10 10:00:00'; -- Thay đổi thời gian tạo  
+DECLARE @loaitask TINYINT = 2; -- 1 cho phiếu nhập, 2 cho phiếu xuất  
+DECLARE @masp NVARCHAR(100) = 'SP001'; -- Mã sản phẩm  
+DECLARE @trangthai TINYINT = 0; -- Trạng thái (0, 1, 2,...)  
+DECLARE @soluong INT = 100; -- Số lượng  
+DECLARE @makehang NVARCHAR(100) = 'KH002'; -- Mã kệ hàng  
+
+-- Gọi thủ tục lưu trữ để chèn dữ liệu vào bảng tasks  
+EXEC InsertTask   
+    @thoigiantao = @thoigiantao,  
+    @loaitask = @loaitask,  
+    @masp = @masp,  
+    @trangthai = @trangthai,  
+    @soluong = @soluong,  
+    @makehang = @makehang;
