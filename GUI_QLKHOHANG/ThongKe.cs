@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI_QLKHOHANG
 {
-    public partial class PN : Form
+    public partial class Thongkesp : Form
     {
-        public PN()
+        public Thongkesp()
         {
             InitializeComponent();
         }

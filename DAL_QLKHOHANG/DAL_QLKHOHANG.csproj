@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="DAL_NHANVIEN.cs" />
     <Compile Include="DAL_TASK.cs" />
+    <Compile Include="DAL_ThongKe.cs" />
     <Compile Include="DBConnect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

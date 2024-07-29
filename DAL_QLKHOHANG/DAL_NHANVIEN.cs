@@ -150,17 +150,35 @@ namespace DAL_QLBanHang
         }
 
         // Lấy danh sách nhân viên
-       
+        public bool DanhSachNV()
+        {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = _conn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "DanhSachNV";
+               
+                //Query và kiẻm tra
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+                return false;
+            }
+            finally { _conn.Close(); }
+        }
 
         // Thêm nhân viên
-       
+
 
 
         // Sửa nhân viên 
-        
 
-        
 
-       
+
+
+
     }
 }

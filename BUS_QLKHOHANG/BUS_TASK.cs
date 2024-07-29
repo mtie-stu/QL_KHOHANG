@@ -20,9 +20,9 @@ namespace BUS_QLKHOHANG
         {
             return daltask.AdminDuyetTask (task);
         }
-        public DataTable GetTaskByUser(DTO_TASK task)
+        public DataTable XemTaskChuaDuyet(DTO_TASK task)
         {
-            return daltask.GetTasksByUser(task);
+            return daltask.XemTaskChuaDuyet(task);
         }
         public DataTable spThongKeKehangTheoMaSP()
         {
@@ -32,14 +32,7 @@ namespace BUS_QLKHOHANG
         {
             return daltask.spThongKeNhapXuatTheoMaNV();
         }
-        public DataTable LoaiTask()
-        {
-            return daltask.Loaitask();
-        }
-        public DataTable NhanVienCB()
-        {
-            return daltask.NhanVienCB();
-        }
-
+      
+     
     }
 }

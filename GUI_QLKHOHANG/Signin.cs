@@ -62,8 +62,8 @@ namespace GUI_QLKHOHANG
                     vaitro = dt.Rows[0][0].ToString();
                     MessageBox.Show("Đăng nhập thành công");
                     MAIN.session = 1;
-                    this.Close();
-                    Form1.ActiveForm.Hide(); // Ẩn form đăng nhập
+                   
+                    // Ẩn form đăng nhập
                     MAIN mAIN = new MAIN();
                     mAIN.Show(); // Hiển thị form MAIN
 
@@ -217,6 +217,31 @@ namespace GUI_QLKHOHANG
         private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (txtPass.PasswordChar == '\0')
+            {
+                an.BringToFront();
+                txtPass.PasswordChar = '*';
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+            if (txtPass.PasswordChar == '*')
+            {
+                Hien.BringToFront();
+                txtPass.PasswordChar = '\0';
+            }
+           
         }
     }
 }

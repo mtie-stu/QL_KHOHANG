@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -40,16 +43,20 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.an = new System.Windows.Forms.PictureBox();
+            this.Hien = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.an)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Hien)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.Controls.Add(this.Hien);
+            this.guna2CustomGradientPanel1.Controls.Add(this.an);
             this.guna2CustomGradientPanel1.Controls.Add(this.label3);
             this.guna2CustomGradientPanel1.Controls.Add(this.label2);
             this.guna2CustomGradientPanel1.Controls.Add(this.txtEmail);
@@ -71,6 +78,26 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(424, 535);
             this.guna2CustomGradientPanel1.TabIndex = 3;
             this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Snow;
+            this.label3.Location = new System.Drawing.Point(57, 209);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Mật Khẩu ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Snow;
+            this.label2.Location = new System.Drawing.Point(57, 150);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Taì khoản ";
             // 
             // txtEmail
             // 
@@ -245,6 +272,7 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(682, 543);
             this.guna2Panel1.TabIndex = 4;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // guna2Button4
             // 
@@ -265,25 +293,25 @@
             this.guna2Button4.TabIndex = 23;
             this.guna2Button4.Text = "THOÁT";
             // 
-            // label2
+            // an
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(57, 150);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Taì khoản ";
+            this.an.Image = ((System.Drawing.Image)(resources.GetObject("an.Image")));
+            this.an.Location = new System.Drawing.Point(324, 224);
+            this.an.Name = "an";
+            this.an.Size = new System.Drawing.Size(100, 50);
+            this.an.TabIndex = 22;
+            this.an.TabStop = false;
+            this.an.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label3
+            // Hien
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Snow;
-            this.label3.Location = new System.Drawing.Point(57, 209);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Mật Khẩu ";
+            this.Hien.Image = ((System.Drawing.Image)(resources.GetObject("Hien.Image")));
+            this.Hien.Location = new System.Drawing.Point(321, 224);
+            this.Hien.Name = "Hien";
+            this.Hien.Size = new System.Drawing.Size(100, 50);
+            this.Hien.TabIndex = 23;
+            this.Hien.TabStop = false;
+            this.Hien.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form1
             // 
@@ -300,6 +328,8 @@
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.an)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Hien)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -320,6 +350,8 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox Hien;
+        private System.Windows.Forms.PictureBox an;
     }
 }
 

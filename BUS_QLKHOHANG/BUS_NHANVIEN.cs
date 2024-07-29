@@ -50,7 +50,10 @@ namespace BUS_QLKHOHANG
         {
             return dalNhanVien.UpdateMatKhau(email, matkhaucu, matkhaumoi);
         }
+        public bool DanhSachNV()
+        {
+            return dalNhanVien.DanhSachNV();
+        }
 
-       
     }
 }

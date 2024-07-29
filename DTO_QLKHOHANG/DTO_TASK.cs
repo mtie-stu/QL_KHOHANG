@@ -12,7 +12,7 @@ namespace DTO_QLKHOHANG
     {
         public string MaTask;
         
-        public string Loaitask;
+        public string LoaiTask;
         public string MaSP;
         public string MaNV;
         public int Trangthai;
@@ -31,8 +31,8 @@ namespace DTO_QLKHOHANG
       
         public string loaitask
         {
-            get { return Loaitask; }
-            set { Loaitask = value; }
+            get { return LoaiTask; }
+            set { LoaiTask = value; }
         }
         public string masp
         {
@@ -73,7 +73,7 @@ namespace DTO_QLKHOHANG
         {
            this. MaTask = maTask;
            
-           this. Loaitask = loaitask;
+           this. LoaiTask = loaitask;
             this.MaSP = maSP;
            this. MaNV = maNV;
             this.Trangthai = trangthai;
@@ -87,7 +87,7 @@ namespace DTO_QLKHOHANG
         {
            
             
-            this.Loaitask = loaitask;
+            this.LoaiTask = loaitask;
             this.MaSP = maSP;
             this.MaNV = maNV;
             this.Trangthai = trangthai;
@@ -97,13 +97,13 @@ namespace DTO_QLKHOHANG
             this.MaHang = maHang;
             this.Thoigiantao = thoigiantao;
         }
-        public DTO_TASK(string maSP, string maKeHang, int soluong,string maNV, string loaitask)
+        public DTO_TASK(string maSP, string maKeHang, int soluong)
         { 
             this.MaSP = maSP;
-            this.MaNV = maNV;
+           
             this.Soluong = soluong;
             this.MaKeHang= maKeHang;
-            this.Loaitask= loaitask;
+            this.LoaiTask = loaitask;
         }
         public DTO_TASK() { }
 

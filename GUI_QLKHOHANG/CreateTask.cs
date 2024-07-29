@@ -30,7 +30,7 @@ namespace GUI_QLKHOHANG
             LoadGridView_Task();
             ResetValue();
             LoadDataComboBox();
-            LoadDataNhanVienCB();
+            
         }
 
         private void guna2TextBox3_TextChanged(object sender, EventArgs e)
@@ -44,18 +44,10 @@ namespace GUI_QLKHOHANG
         }
         public void LoadDataComboBox()
         {
-            DataTable types = bustask.LoaiTask();
-            Cb_LoaiTask.DataSource = types;
-            Cb_LoaiTask.DisplayMember = "LoaiTask";
-            Cb_LoaiTask.ValueMember = "LoaiTask";
+          
+         
         }
-        public void LoadDataNhanVienCB()
-        {
-            DataTable types = bustask.LoaiTask();
-            Cb_Nhanvien.DataSource = types;
-            Cb_Nhanvien.DisplayMember = "NhanVienCB";
-            Cb_Nhanvien.ValueMember = "NhanVienCB";
-        }
+        
         private void guna2Button5_Click(object sender, EventArgs e)
         {
 
@@ -68,13 +60,8 @@ namespace GUI_QLKHOHANG
         DTO_TASK task = new DTO_TASK();
         private void LoadGridView_Task()
         {
-            dgv_task.DataSource = bustask.GetTaskByUser(task);
-            dgv_task.Columns[0].HeaderText = "Mã Task";
-            dgv_task.Columns[1].HeaderText = "Mã Sản Phẩm";
-            dgv_task.Columns[2].HeaderText = "Mã Kệ Hàng";
-            dgv_task.Columns[3].HeaderText = "Số Lượng";
-            dgv_task.Columns[4].HeaderText = "Trạng Thái ";
-           
+            dgv_task.DataSource = bustask.XemTaskChuaDuyet(task);
+        
         }
         private void ResetValue()
         {
@@ -84,8 +71,7 @@ namespace GUI_QLKHOHANG
             btnduyet.Enabled = false;
             btnthem.Enabled = false;
             btndeclineduyet.Enabled = false;
-            Cb_LoaiTask.Enabled = false;
-            Cb_Nhanvien.Enabled = false; 
+             
         }
 
         
@@ -121,8 +107,7 @@ namespace GUI_QLKHOHANG
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            Cb_Nhanvien.Enabled = true;
-            Cb_LoaiTask.Enabled = true;
+         
             btnluu.Enabled = true;
             btnthem.Enabled = false;
             btnduyet.Enabled = false;
@@ -151,19 +136,10 @@ namespace GUI_QLKHOHANG
                 MessageBox.Show("Bạn phải nhập số lượng ");
                 txt_SoLuong.Focus();
             }
-            else if (Cb_LoaiTask.SelectedIndex == -1) // Nếu không có mục nào được chọn  
-            {
-                MessageBox.Show("Vui lòng chọn loại sản phẩm.");
-                Cb_LoaiTask.Focus(); // Đưa con trỏ về ComboBox  
-            }
-            else if (Cb_Nhanvien.SelectedIndex == -1) // Nếu không có mục nào được chọn  
-            {
-                MessageBox.Show("Vui lòng chọn loại sản phẩm.");
-                Cb_Nhanvien.Focus(); // Đưa con trỏ về ComboBox  
-            } 
+           
             else
             {
-                DTO_TASK dto_task = new DTO_TASK(txt_MaSP.Text,txt_MaKeHang.Text,int.Parse(txt_SoLuong.Text),Cb_Nhanvien.Text,Cb_LoaiTask.Text);
+                DTO_TASK dto_task = new DTO_TASK(txt_MaSP.Text,txt_MaKeHang.Text,int.Parse(txt_SoLuong.Text));
                 if (bustask.InsertTask(dto_task))
                 {
                     MessageBox.Show("Thêm sản phẩm thành công");

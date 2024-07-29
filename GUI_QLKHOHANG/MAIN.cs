@@ -243,5 +243,10 @@ namespace GUI_QLKHOHANG
         {
 
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

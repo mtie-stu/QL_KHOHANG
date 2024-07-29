@@ -52,11 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Signin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Signin.Designer.cs">
+      <DependentUpon>Signin.cs</DependentUpon>
     </Compile>
     <Compile Include="CreateTask.cs">
       <SubType>Form</SubType>
@@ -70,23 +70,11 @@
     <Compile Include="MAIN.Designer.cs">
       <DependentUpon>MAIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main2.Designer.cs">
-      <DependentUpon>Main2.cs</DependentUpon>
-    </Compile>
     <Compile Include="NHANVIEN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NHANVIEN.Designer.cs">
       <DependentUpon>NHANVIEN.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PN.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PN.Designer.cs">
-      <DependentUpon>PN.cs</DependentUpon>
     </Compile>
     <Compile Include="PNCT.cs">
       <SubType>Form</SubType>
@@ -108,8 +96,8 @@
     <Compile Include="USER.Designer.cs">
       <DependentUpon>USER.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Signin.resx">
+      <DependentUpon>Signin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateTask.resx">
       <DependentUpon>CreateTask.cs</DependentUpon>
@@ -117,14 +105,8 @@
     <EmbeddedResource Include="MAIN.resx">
       <DependentUpon>MAIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main2.resx">
-      <DependentUpon>Main2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="NHANVIEN.resx">
       <DependentUpon>NHANVIEN.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PN.resx">
-      <DependentUpon>PN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PNCT.resx">
       <DependentUpon>PNCT.cs</DependentUpon>
